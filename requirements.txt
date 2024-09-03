@@ -1,0 +1,6 @@
+opencv-python>=4.5.3.56
+numpy>=1.21.2
+torch>=1.10.0
+scipy>=1.7.1
+
+#sort and Yolov5 should be downloaded manually
