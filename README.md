@@ -12,6 +12,7 @@ This project focuses on detecting and tracking people (therapist and child) in v
 - **Unique ID Assignment:** Each detected person is assigned a unique ID that remains consistent throughout the video.
 - **Re-entry and Occlusion Handling:** The system re-assigns the correct ID to a person who exits and re-enters the frame, or when visibility is partially obscured.
 - **Efficient Tracking:** Utilizes the YOLOv5 object detection model along with the SORT algorithm for real-time tracking.
+- **Face Saving Logic:** Every 10 seconds, the code will crop the faces of tracked persons and save them to the specified output folder. Filenames will include the tracking ID and the current timestamp.
 
 ## Requirements
 
